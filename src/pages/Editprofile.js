@@ -3,6 +3,9 @@ import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
 
 const Editprofile = (props) => {
+    const updatehandler = () => {
+        console.log('')
+    }
     return (
         <>
 
@@ -23,6 +26,7 @@ const Editprofile = (props) => {
                             <a href="">Create New Password</a><br/><br/>
                             <button 
                             style={{ marginLeft: '30px', width: '200px', borderRadius: '10px', backgroundColor: '#12B5B0', marginBottom: '30px' }}
+                            onClick={updatehandler}
                             >Update</button>
                         </form>
 

@@ -1,5 +1,8 @@
 body{
-  background-image: url('../public/data_tile.jpg');
+  /* background-image: url('../public/data_tile.jpg'); */
+  /* background-image: url('https://cdn.pixabay.com/photo/2019/hhttps://static.vecteezy.com/system/resources/thumbnails/007/937/895/small/modern-low-poly-light-blue-triangle-shapes-background-free-vector.jpgttps://img.freepik.com/free-vector/pastel-blue-banner-background_1048-11857.jpg?w=2000/15/09/16/https://img.freepik.com/free-vector/pastel-blue-banner-background_1048-11857.jpg?w=2000-4696630_960_720.jpg'); */
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/007/937/895/small/modern-low-poly-light-blue-triangle-shapes-background-free-vector.jpg');
+  background-size: cover;
 }
 nav{
   background-color: black;
@@ -76,6 +79,8 @@ nav{
   /* background-image: url('https://cdn.pixabay.com/photo/2019/12/15/09/16/blue-4696630_960_720.jpg' ); */
   /* height: 30vh; */
   background: linear-gradient(to bottom, skyblue 40%, white 40%);
+
+  background-size: cover;
 }
 .ebody{
   display: flex;

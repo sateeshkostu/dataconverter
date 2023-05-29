@@ -26,7 +26,7 @@ function App() {
       <Route path='/home' element={<Home/>} />
       <Route path='/Mytempletes' element={<Mytemplete/>} />
       <Route path='/fieldmap' element={<Fieldmap/>} />
-      {/* <Route path='/mapping' element={<Mapping/>} /> */}
+      <Route path='/mapping' element={<Mapping/>} />
       <Route path='/aboutus' element={<Aboutus/>} />
       <Route path='/contactus' element={<Contactus/>} />
       <Route path='/Profilepopup' element={<Profilepopup/>} />
