@@ -1,38 +1,89 @@
-.App {
+body{
+  background-image: url('../public/data_tile.jpg');
+}
+nav{
+  background-color: black;
+  color: #fff;
+  justify-content: space-between;
+}
+.logo{
+  margin: 20px;
+}
+.list ul{
+  display: flex;
+}
+.list li{
+  list-style: none;
+}
+.list li a{
+  color: #fff;
+}
+.list li ::selection{
+  background-color: #12B5B0;
+  position: fixed;
+}
+.list li {
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+  display: block;
+  border:  1px solid white;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.list li:hover{
+  background-color: #12B5B0;
+}
+.list li a:hover{
+  color: white;
+}
+.button2{
+  background-color: #12B5B0;
+}
+.life li {
+  list-style: none;
+  text-align: center;
+}
+.hdfc li {
+  list-style: none;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.save{
+  background-color: #12B5B0;
+  width: 214px;
+  height: 58px;
+  border-radius: 20px;
+  margin-left: 250px;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form{
+  /* width: 500px; */
+  text-align: left;
+  margin-left: 550px;
+}
+.form input{
+  width: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.modal{
+  background-color: black;
+}
+.mbody{
+  /* background-image: url('https://cdn.pixabay.com/photo/2019/12/15/09/16/blue-4696630_960_720.jpg' ); */
+  /* height: 30vh; */
+  background: linear-gradient(to bottom, skyblue 40%, white 40%);
+}
+.ebody{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.edit input{
+  width: 300px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.edit a {
+  margin-left: 150px;
+  
 }
